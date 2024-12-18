@@ -19,6 +19,14 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+<div className='w-[400px] bg-white rounded-lg shadow'>
+  <div className='flex justify-end p-4'>
+    <button className='bg-primary-500 text-white text-sm rounded-md px-4 py-2'>
+      Войти
+    </button>
+  </div>
+</div>
 <div className="w-[1440px] h-[1080px] bg-white rounded-lg shadow-lg p-6 flex flex-col gap-6">  <div className="text-xl font-title text-neutral-950">Главный блок</div>
   <div className="flex gap-6">
     <div className="bg-neutral-100 p-4 rounded-md w-[900px] h-[600px] flex items-center justify-center">
@@ -36,19 +44,3 @@ button {
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-<div className='w-[400px] bg-white rounded-lg shadow'>
-  <div className='flex justify-end p-4'>
-    <button className='bg-primary-500 text-white text-sm rounded-md px-4 py-2'>
-      Войти
-    </button>
-  </div>
-</div>
-
